@@ -1717,7 +1717,8 @@
           "code": "74013-4",
           "code_system_name": "LOINC"
         },
-        "value": "1"
+        "value": "1",
+        "history_type": "smoking"
       },
       {
         "date_time": {
@@ -1737,7 +1738,22 @@
           "code": "72166-2",
           "code_system_name": "LOINC"
         },
-        "value": "Former smoker"
+        "value": "Former smoker",
+        "history_type": "smoking"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "37f76c51-6411-4e1d-8a37-957fd49d2ceg"
+          }
+        ],
+        "code": {
+          "name": "Characteristics of residence",
+          "code": "75274-1",
+          "code_system_name": "LOINC"
+        },
+        "value": "unsatisfactory living conditions (finding)",
+        "history_type": "home"
       }
     ],
     "problems": [
@@ -2334,7 +2350,92 @@
     "reason_for_referral": {
       "title": "REASON FOR REFERRAL",
       "text": "<content>Patient referral for consultation for full care. Referral Nurse: Nurse Florence,RN</content>"
-    }
+    },
+    "nutrition_observations": [
+      {
+        "identifiers": [
+          {
+            "identifier": "c12ecaaf-53f8-4593-8f79-359aeaa3948b"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2013-05-12T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": "well nourished",
+        "assessments": [
+          {
+            "identifiers": [
+              {
+                "identifier": "ab1791b0-5c71-11db-b0de-0800200c9a66"
+              }
+            ],
+            "date_time": {
+              "point": {
+                "date": "2013-05-12T00:00:00.000Z",
+                "precision": "day"
+              }
+            },
+            "value": "low sodium diet (finding)"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "ab1791b0-5c71-11db-b0de-0800200c9a66"
+              }
+            ],
+            "date_time": {
+              "point": {
+                "date": "2013-05-12T00:00:00.000Z",
+                "precision": "day"
+              }
+            },
+            "value": "excessive dietary carbohydrate intake(finding)"
+          }
+        ]
+      }
+    ],
+    "review_of_systems": {
+      "code": {
+        "name": "REVIEW OF SYSTEMS",
+        "code": "10187-3",
+        "code_system_name": "LOINC"
+      },
+      "title": "REVIEW OF SYSTEMS",
+      "text": "Patient denies recent history of fever or malaise. Positive For weakness and shortness of breath. One episode of melena. No recent headaches. Positive for osteoarthritis in hips, knees and hands."
+    },
+    "mental_status": [
+      {
+        "identifiers": [
+          {
+            "identifier": "c12ecaaf-53f8-4593-8f79-359aeaa3948b"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2013-03-11T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": "Intact"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6b5a04b-2bf4-49d1-8336-636a3813df0a"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2013-03-11T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": "Aggressive behavior"
+      }
+    ]
   },
   "meta": {
     "version": "1.10.8",
@@ -2362,7 +2463,10 @@
       "procedures",
       "plan_of_care",
       "payers",
-      "reason_for_referral"
+      "reason_for_referral",
+      "nutrition_observations",
+      "review_of_systems",
+      "mental_status"
     ]
   },
   "errors": [
@@ -2380,6 +2484,8 @@
     "cardinality error: found 2 when expecting 1..1 at h:performer",
     "nullFlavor alert:  missing but required guarantor in entry -> payers_section -> CCD",
     "nullFlavor alert:  missing but required code in participant -> entry -> payers_section -> CCD",
-    "cardinality error: found 2 when expecting 1..1 at h:entryRelationship/h:act/h:participant"
+    "cardinality error: found 2 when expecting 1..1 at h:entryRelationship/h:act/h:participant",
+    "nullFlavor alert:  missing but required organizer in mentalStatusObservation -> mentalStatusSection -> CCD",
+    "nullFlavor alert:  missing but required organizer in mentalStatusObservation -> mentalStatusSection -> CCD"
   ]
 }
