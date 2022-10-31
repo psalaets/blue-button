@@ -1,0 +1,1599 @@
+10154-3
+{
+  "data": {
+    "header": {
+      "identifiers": [
+        {
+          "identifier": "2.16.840.1.113883.19",
+          "extension": "999021"
+        }
+      ],
+      "confidentiality_code": {
+        "code": "N",
+        "name": "Normal",
+        "code_system_name": "Confidentiality Code"
+      },
+      "code": {
+        "name": "Consultation Note",
+        "code": "11488-4",
+        "code_system_name": "LOINC"
+      },
+      "template": [
+        "2.16.840.1.113883.10.20.22.1.1",
+        "2.16.840.1.113883.10.20.22.1.4"
+      ],
+      "title": "Consultation Note",
+      "date_time": {
+        "point": {
+          "date": "2005-03-29T12:15:04.000Z",
+          "precision": "second"
+        }
+      },
+      "author": {
+        "author": [
+          {
+            "identifiers": [
+              {
+                "identifier": "2.16.840.1.113883.19.5",
+                "extension": "KP00017"
+              }
+            ],
+            "name": [
+              {
+                "last": "Seven",
+                "first": "Henry"
+              }
+            ],
+            "address": [
+              {
+                "street_lines": [
+                  "21 North Ave."
+                ],
+                "city": "Burlington",
+                "state": "MA",
+                "zip": "02368",
+                "country": "USA"
+              }
+            ],
+            "phone": [
+              {
+                "number": "(555)555-1003",
+                "type": "work place"
+              }
+            ]
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2005-03-29T17:44:11.000Z",
+            "precision": "second"
+          }
+        }
+      },
+      "data_enterer": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19.5",
+            "extension": "43252"
+          }
+        ],
+        "name": [
+          {
+            "last": "Seven",
+            "first": "Henry"
+          }
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "21 North Ave."
+            ],
+            "city": "Burlington",
+            "state": "MA",
+            "zip": "02368",
+            "country": "USA"
+          }
+        ],
+        "phone": [
+          {
+            "number": "(555)555-1003",
+            "type": "work place"
+          }
+        ]
+      },
+      "informant": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19.5",
+            "extension": "KP00017"
+          }
+        ],
+        "name": [
+          {
+            "last": "Seven",
+            "first": "Henry"
+          }
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "21 North Ave."
+            ],
+            "city": "Burlington",
+            "state": "MA",
+            "zip": "02368",
+            "country": "USA"
+          }
+        ],
+        "phone": [
+          {
+            "number": "(555)555-1003"
+          }
+        ]
+      },
+      "custodian": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19.5"
+          }
+        ],
+        "name": [
+          "Good Health Clinic"
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "17 Daws Rd."
+            ],
+            "city": "Blue Bell",
+            "state": "MA",
+            "zip": "02368",
+            "country": "USA",
+            "use": "work place"
+          }
+        ],
+        "phone": [
+          {
+            "number": "(555)555-1212",
+            "type": "work place"
+          }
+        ]
+      }
+    },
+    "demographics": {
+      "name": {
+        "prefix": "Mr.",
+        "middle": [
+          "Frankie"
+        ],
+        "last": "Everyman",
+        "first": "Adam"
+      },
+      "dob": {
+        "point": {
+          "date": "1954-11-25T00:00:00.000Z",
+          "precision": "day"
+        }
+      },
+      "gender": {
+        "name": "Male",
+        "code": "M",
+        "code_system_name": "HL7 AdministrativeGender"
+      },
+      "identifiers": [
+        {
+          "identifier": "2.16.840.1.113883.19",
+          "extension": "12345"
+        },
+        {
+          "identifier": "2.16.840.1.113883.4.1",
+          "extension": "111-00-1234"
+        }
+      ],
+      "marital_status": {
+        "name": "Married",
+        "code": "M",
+        "code_system_name": "HL7 Marital Status"
+      },
+      "addresses": [
+        {
+          "street_lines": [
+            "17 Daws Rd."
+          ],
+          "city": "Blue Bell",
+          "state": "MA",
+          "zip": "02368",
+          "country": "US",
+          "use": "primary home"
+        }
+      ],
+      "phone": [
+        {
+          "number": "(781)555-1212",
+          "type": "primary home"
+        }
+      ],
+      "race": {
+        "name": "White",
+        "code": "2106-3",
+        "code_system_name": "Race and Ethnicity - CDC"
+      },
+      "ethnicity": {
+        "name": "Not Hispanic or Latino",
+        "code": "2186-5",
+        "code_system_name": "Race and Ethnicity - CDC"
+      },
+      "languages": [
+        {
+          "language": {
+            "code": "fr-CN"
+          },
+          "preferred": true,
+          "mode": {
+            "name": "Recieve Written",
+            "code": "RWR",
+            "code_system_name": "LanguageAbilityMode"
+          }
+        }
+      ],
+      "religion": {
+        "name": "Christian (non-Catholic, non-specific)",
+        "code": "1013",
+        "code_system_name": "HL7 Religion"
+      },
+      "birthplace": {
+        "state": "MA",
+        "zip": "02368",
+        "country": "USA"
+      },
+      "guardians": [
+        {
+          "relation": {
+            "name": "Grandfather",
+            "code": "GRFTH",
+            "code_system_name": "HL7 Role"
+          },
+          "addresses": [
+            {
+              "street_lines": [
+                "17 Daws Rd."
+              ],
+              "city": "Blue Bell",
+              "state": "MA",
+              "zip": "02368",
+              "country": "US",
+              "use": "primary home"
+            }
+          ],
+          "names": [
+            {
+              "last": "Relative",
+              "first": "Ralph"
+            }
+          ],
+          "phone": [
+            {
+              "number": "(781)555-1212",
+              "type": "primary home"
+            }
+          ]
+        }
+      ]
+    },
+    "vitals": [
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "1999-11-14T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 177,
+        "unit": "cm"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "Patient Body Weight - Measured",
+          "code": "3141-9",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "1999-11-14T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 86,
+        "unit": "kg"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "Intravascular Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "1999-11-14T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 132,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2000-04-07T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 177,
+        "unit": "cm"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "Patient Body Weight - Measured",
+          "code": "3141-9",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2000-04-07T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 88,
+        "unit": "kg"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "Intravascular Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2000-04-07T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 145,
+        "unit": "mm[Hg]"
+      }
+    ],
+    "results": [
+      {
+        "identifiers": [
+          {
+            "identifier": "7d5a02b0-67a4-11db-bd13-0800200c9a66"
+          }
+        ],
+        "result_set": {
+          "name": "CBC WO DIFFERENTIAL",
+          "code": "43789009",
+          "code_system_name": "SNOMED CT"
+        },
+        "results": [
+          {
+            "identifiers": [
+              {
+                "identifier": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+              }
+            ],
+            "result": {
+              "name": "HGB",
+              "code": "30313-1",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2000-03-23T00:00:00.000Z",
+                "precision": "day"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "range": "M 13-18 g/dl; F 12-16 g/dl"
+            },
+            "interpretations": [
+              {
+                "code": "N",
+                "name": "Normal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 13.2,
+            "unit": "g/dl"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+              }
+            ],
+            "result": {
+              "name": "WBC",
+              "code": "33765-9",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2000-03-23T00:00:00.000Z",
+                "precision": "day"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "4.3",
+              "high": "10.8",
+              "unit": "10+3/ul"
+            },
+            "interpretations": [
+              {
+                "code": "N",
+                "name": "Normal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 6.7,
+            "unit": "10+3/ul"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+              }
+            ],
+            "result": {
+              "name": "PLT",
+              "code": "26515-7",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2000-03-23T00:00:00.000Z",
+                "precision": "day"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "150",
+              "high": "350",
+              "unit": "10+3/ul"
+            },
+            "interpretations": [
+              {
+                "code": "L",
+                "name": "Low",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 123,
+            "unit": "10+3/ul"
+          }
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "date_time": {
+          "low": {
+            "date": "2011-03-01T00:00:00.000Z",
+            "precision": "day"
+          },
+          "high": {
+            "date": "2012-03-01T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "cdbd33f0-6cde-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "status": "Completed",
+        "sig": "0.09 MG/ACTUAT inhalant solution, 2 puffs QID PRN wheezing",
+        "product": {
+          "product": {
+            "name": "Albuterol 0.09 MG/ACTUAT inhalant solution",
+            "code": "329498",
+            "translations": [
+              {
+                "name": "Proventil 0.09 MG/ACTUAT inhalant solution",
+                "code": "573621",
+                "code_system_name": "RXNORM"
+              }
+            ],
+            "code_system_name": "RXNORM"
+          }
+        },
+        "supply": {
+          "date_time": {
+            "low": {
+              "date": "2002-01-01T00:00:00.000Z",
+              "precision": "day"
+            }
+          },
+          "repeatNumber": "1",
+          "quantity": "75",
+          "author": {
+            "name": {
+              "prefix": "Dr.",
+              "last": "Michaels",
+              "first": "Robert"
+            }
+          },
+          "instructions": {
+            "code": {
+              "name": "instruction",
+              "code": "409073007",
+              "code_system_name": "SNOMED CT"
+            },
+            "free_text": "label in spanish"
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "RESPIRATORY (INHALATION)",
+            "code": "C38216",
+            "code_system_name": "Medication Route FDA"
+          },
+          "form": {
+            "name": "INHALANT",
+            "code": "C42944",
+            "code_system_name": "Medication Route FDA"
+          },
+          "dose": {
+            "value": 1
+          },
+          "rate": {
+            "value": 90,
+            "unit": "ml/min"
+          },
+          "interval": {
+            "period": {
+              "value": 6,
+              "unit": "h"
+            },
+            "frequency": true
+          }
+        },
+        "performer": {
+          "organization": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "2.16.840.1.113883.19.5"
+                }
+              ],
+              "name": [
+                "Good Health Clinic"
+              ]
+            }
+          ]
+        },
+        "drug_vehicle": {
+          "name": "Diethylene Glycol",
+          "code": "5955009",
+          "code_system_name": "SNOMED CT"
+        },
+        "precondition": {
+          "code": {
+            "code": "ASSERTION",
+            "code_system_name": "ActCode"
+          },
+          "value": {
+            "name": "Wheezing",
+            "code": "56018004",
+            "code_system_name": "SNOMED CT"
+          }
+        },
+        "indication": {
+          "identifiers": [
+            {
+              "identifier": "db734647-fc99-424c-a864-7e3cda82e703",
+              "extension": "45665"
+            }
+          ],
+          "code": {
+            "name": "Finding",
+            "code": "404684003",
+            "code_system_name": "SNOMED CT"
+          },
+          "value": {
+            "name": "Bronchitis",
+            "code": "32398004",
+            "code_system_name": "SNOMED CT"
+          }
+        },
+        "dispense": {
+          "identifiers": [
+            {
+              "identifier": "1.2.3.4.56789.1",
+              "extension": "cb734647-fc99-424c-a864-7e3cda82e704"
+            }
+          ],
+          "performer": {
+            "address": [
+              {
+                "street_lines": [
+                  "17 Daws Rd."
+                ],
+                "city": "Blue Bell",
+                "state": "MA",
+                "zip": "02368",
+                "country": "US"
+              }
+            ],
+            "organization": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "2.16.840.1.113883.19.5"
+                  }
+                ],
+                "name": [
+                  "Good Health Clinic"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "allergies": [
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2009-09-09T00:00:00.000Z",
+            "precision": "day"
+          },
+          "low": {
+            "date": "2009-09-02T00:00:00.000Z",
+            "precision": "day"
+          },
+          "high": {
+            "date": "2010-01-03T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "ALLERGENIC EXTRACT, PENICILLIN",
+            "code": "314422",
+            "code_system_name": "RXNORM"
+          },
+          "intolerance": {
+            "name": "Adverse reaction to substance",
+            "code": "282100009",
+            "code_system_name": "SNOMED CT"
+          },
+          "date_time": {
+            "low": {
+              "date": "2011-02-15T00:00:00.000Z",
+              "precision": "day"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          },
+          "reactions": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+                }
+              ],
+              "date_time": {
+                "low": {
+                  "date": "2009-07-11T00:00:00.000Z",
+                  "precision": "day"
+                }
+              },
+              "reaction": {
+                "name": "Hives",
+                "code": "247472004",
+                "code_system_name": "SNOMED CT"
+              }
+            }
+          ],
+          "severity": {
+            "code": {
+              "name": "Moderate to severe",
+              "code": "371924009",
+              "code_system_name": "SNOMED CT"
+            }
+          }
+        }
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2009-09-09T00:00:00.000Z",
+            "precision": "day"
+          },
+          "low": {
+            "date": "2009-09-02T00:00:00.000Z",
+            "precision": "day"
+          },
+          "high": {
+            "date": "2010-01-03T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "ASPIRIN",
+            "code": "1191",
+            "code_system_name": "RXNORM"
+          },
+          "intolerance": {
+            "name": "Adverse reaction to substance",
+            "code": "282100009",
+            "code_system_name": "SNOMED CT"
+          },
+          "date_time": {
+            "low": {
+              "date": "2011-02-15T00:00:00.000Z",
+              "precision": "day"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          },
+          "reactions": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+                }
+              ],
+              "date_time": {
+                "low": {
+                  "date": "2009-07-11T00:00:00.000Z",
+                  "precision": "day"
+                }
+              },
+              "reaction": {
+                "name": "Wheezing",
+                "code": "56018004",
+                "code_system_name": "SNOMED CT"
+              }
+            }
+          ],
+          "severity": {
+            "code": {
+              "name": "Moderate to severe",
+              "code": "371924009",
+              "code_system_name": "SNOMED CT"
+            }
+          }
+        }
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2009-09-09T00:00:00.000Z",
+            "precision": "day"
+          },
+          "low": {
+            "date": "2009-09-02T00:00:00.000Z",
+            "precision": "day"
+          },
+          "high": {
+            "date": "2010-01-03T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "Codeine",
+            "code": "2670",
+            "code_system_name": "RXNORM"
+          },
+          "intolerance": {
+            "name": "Adverse reaction to substance",
+            "code": "282100009",
+            "code_system_name": "SNOMED CT"
+          },
+          "date_time": {
+            "low": {
+              "date": "2011-02-15T00:00:00.000Z",
+              "precision": "day"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          },
+          "reactions": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+                }
+              ],
+              "date_time": {
+                "low": {
+                  "date": "2009-07-11T00:00:00.000Z",
+                  "precision": "day"
+                }
+              },
+              "reaction": {
+                "name": "Nausea",
+                "code": "73879007",
+                "code_system_name": "SNOMED CT"
+              }
+            }
+          ],
+          "severity": {
+            "code": {
+              "name": "Moderate to severe",
+              "code": "371924009",
+              "code_system_name": "SNOMED CT"
+            }
+          }
+        }
+      }
+    ],
+    "immunizations": [
+      {
+        "date_time": {
+          "point": {
+            "date": "1999-11-01T00:00:00.000Z",
+            "precision": "month"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+          }
+        ],
+        "status": "complete",
+        "product": {
+          "product": {
+            "name": "Influenza virus vaccine",
+            "code": "88",
+            "code_system_name": "CVX Vaccine",
+            "translations": [
+              {
+                "name": "influenza, live, intranasal",
+                "code": "111",
+                "code_system_name": "CVX Vaccine"
+              }
+            ]
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "Intramuscular injection",
+            "code": "IM",
+            "code_system_name": "Route Code"
+          }
+        },
+        "instructions": {
+          "code": {
+            "name": "immunization education",
+            "code": "171044003",
+            "code_system_name": "SNOMED CT"
+          },
+          "free_text": "Possible flu-like symptoms for three days."
+        }
+      },
+      {
+        "date_time": {
+          "point": {
+            "date": "1998-12-15T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+          }
+        ],
+        "status": "complete",
+        "product": {
+          "product": {
+            "name": "Influenza virus vaccine",
+            "code": "88",
+            "code_system_name": "CVX Vaccine",
+            "translations": [
+              {
+                "name": "influenza, live, intranasal",
+                "code": "111",
+                "code_system_name": "CVX Vaccine"
+              }
+            ]
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "Intramuscular injection",
+            "code": "IM",
+            "code_system_name": "Route Code"
+          }
+        },
+        "instructions": {
+          "code": {
+            "name": "immunization education",
+            "code": "171044003",
+            "code_system_name": "SNOMED CT"
+          },
+          "free_text": "Possible flu-like symptoms for three days."
+        }
+      },
+      {
+        "date_time": {
+          "point": {
+            "date": "1998-12-15T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+          }
+        ],
+        "status": "complete",
+        "product": {
+          "product": {
+            "name": "Pneumococcal polysaccharide vaccine",
+            "code": "33",
+            "code_system_name": "CVX Vaccine",
+            "translations": [
+              {
+                "name": "Pneumococcal NOS",
+                "code": "109",
+                "code_system_name": "CVX Vaccine"
+              }
+            ]
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "Intramuscular injection",
+            "code": "IM",
+            "code_system_name": "Route Code"
+          }
+        },
+        "instructions": {
+          "code": {
+            "name": "immunization education",
+            "code": "171044003",
+            "code_system_name": "SNOMED CT"
+          },
+          "free_text": "Possible flu-like symptoms for three days."
+        }
+      },
+      {
+        "date_time": {
+          "point": {
+            "date": "1998-12-15T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+          }
+        ],
+        "status": "complete",
+        "product": {
+          "product": {
+            "name": "Tetanus and diphtheria toxoids - preservative free",
+            "code": "103",
+            "code_system_name": "CVX Vaccine",
+            "translations": [
+              {
+                "name": "Tetanus and diphtheria toxoids - preservative free",
+                "code": "09",
+                "code_system_name": "CVX Vaccine"
+              }
+            ]
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "Intramuscular injection",
+            "code": "IM",
+            "code_system_name": "Route Code"
+          }
+        },
+        "instructions": {
+          "code": {
+            "name": "immunization education",
+            "code": "171044003",
+            "code_system_name": "SNOMED CT"
+          },
+          "free_text": "Possible flu-like symptoms for three days."
+        },
+        "refusal_reason": "Patient objection",
+        "indications": [
+          {
+            "code": {
+              "name": "Patient Objection",
+              "code": "PATOBJ",
+              "code_system_name": "HL7 ActNoImmunizationReason"
+            }
+          }
+        ]
+      }
+    ],
+    "social_history": [
+      {
+        "date_time": {
+          "low": {
+            "date": "1947-01-01T00:00:00.000Z",
+            "precision": "year"
+          },
+          "high": {
+            "date": "1972-01-01T00:00:00.000Z",
+            "precision": "year"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "9b56c25d-9104-45ee-9fa4-e0f3afaa01c1"
+          }
+        ],
+        "code": {
+          "name": "Cigarette smoking",
+          "code": "230056004",
+          "code_system_name": "SNOMED CT"
+        },
+        "value": "1 pack per day",
+        "history_type": "smoking"
+      },
+      {
+        "date_time": {
+          "low": {
+            "date": "1973-01-01T00:00:00.000Z",
+            "precision": "year"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "45efb604-7049-4a2e-ad33-d38556c9636c"
+          }
+        ],
+        "code": {
+          "name": "Cigarette smoking",
+          "code": "230056004",
+          "code_system_name": "SNOMED CT"
+        },
+        "value": "None",
+        "history_type": "smoking"
+      },
+      {
+        "date_time": {
+          "low": {
+            "date": "1973-01-01T00:00:00.000Z",
+            "precision": "year"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "37f76c51-6411-4e1d-8a37-957fd49d2cef"
+          }
+        ],
+        "code": {
+          "name": "Alcohol consumption",
+          "code": "160573003",
+          "code_system_name": "SNOMED CT"
+        },
+        "value": "None",
+        "history_type": "smoking"
+      }
+    ],
+    "procedures": [
+      {
+        "procedure": {
+          "name": "Colonic polypectomy",
+          "code": "274025005",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "d68b7e32-7810-4f5b-9cc2-acd54b0fd85d"
+          }
+        ],
+        "status": "Completed",
+        "date_time": {
+          "point": {
+            "date": "2011-02-15T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "specimen": {
+          "identifiers": [
+            {
+              "identifier": "c2ee9ee9-ae31-4628-a919-fec1cbb58683"
+            }
+          ],
+          "code": {
+            "name": "colonic polyp sample",
+            "code": "309226005",
+            "code_system_name": "SNOMED CT"
+          }
+        },
+        "performers": [
+          {
+            "identifiers": [
+              {
+                "identifier": "c2ee9ee9-ae31-4628-a919-fec1cbb58687"
+              }
+            ],
+            "address": [
+              {
+                "street_lines": [
+                  "17 Daws Rd."
+                ],
+                "city": "Blue Bell",
+                "state": "MA",
+                "zip": "02368",
+                "country": "US"
+              }
+            ],
+            "phone": [
+              {
+                "number": "(555)555-555-1234",
+                "type": "work place"
+              }
+            ],
+            "organization": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "c2ee9ee9-ae31-4628-a919-fec1cbb58686"
+                  }
+                ],
+                "name": [
+                  "Good Health Clinic"
+                ],
+                "address": [
+                  {
+                    "street_lines": [
+                      "17 Daws Rd."
+                    ],
+                    "city": "Blue Bell",
+                    "state": "MA",
+                    "zip": "02368",
+                    "country": "US"
+                  }
+                ],
+                "phone": [
+                  {
+                    "number": "(555)555-555-1234",
+                    "type": "work place"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "procedure_type": "procedure"
+      },
+      {
+        "procedure": {
+          "name": "Colonic polypectomy",
+          "code": "274025005",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19",
+            "extension": "123456789"
+          }
+        ],
+        "status": "Aborted",
+        "date_time": {
+          "point": {
+            "date": "2011-02-03T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "body_sites": [
+          {
+            "name": "Abdomen and pelvis",
+            "code": "416949008",
+            "code_system_name": "SNOMED CT"
+          }
+        ],
+        "priority": {
+          "name": "Callback results",
+          "code": "CR",
+          "code_system_name": "ActPriority"
+        },
+        "performers": [
+          {
+            "identifiers": [
+              {
+                "identifier": "2.16.840.1.113883.19.5",
+                "extension": "1234"
+              }
+            ],
+            "address": [
+              {
+                "street_lines": [
+                  "17 Daws Rd."
+                ],
+                "city": "Blue Bell",
+                "state": "MA",
+                "zip": "02368",
+                "country": "US"
+              }
+            ],
+            "phone": [
+              {
+                "number": "(555)555-555-1234",
+                "type": "work place"
+              }
+            ],
+            "organization": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "2.16.840.1.113883.19.5"
+                  }
+                ],
+                "name": [
+                  "Good Health Clinic"
+                ]
+              }
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "name": "Good Health Clinic",
+            "location_type": {
+              "name": "General Acute Care Hospital",
+              "code": "GACH",
+              "code_system_name": "HL7 Role"
+            },
+            "address": [
+              {
+                "street_lines": [
+                  "17 Daws Rd."
+                ],
+                "city": "Blue Bell",
+                "state": "MA",
+                "zip": "02368",
+                "country": "US"
+              }
+            ]
+          }
+        ],
+        "procedure_type": "observation"
+      },
+      {
+        "procedure": {
+          "name": "Colonic polypectomy",
+          "code": "274025005",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "1.2.3.4.5.6.7.8",
+            "extension": "1234567"
+          }
+        ],
+        "status": "Completed",
+        "date_time": {
+          "point": {
+            "date": "2011-02-03T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "priority": {
+          "name": "Callback results",
+          "code": "CR",
+          "code_system_name": "ActPriority"
+        },
+        "performers": [
+          {
+            "identifiers": [
+              {
+                "identifier": "2.16.840.1.113883.19",
+                "extension": "1234"
+              }
+            ],
+            "address": [
+              {
+                "street_lines": [
+                  "17 Daws Rd."
+                ],
+                "city": "Blue Bell",
+                "state": "MA",
+                "zip": "02368",
+                "country": "US"
+              }
+            ],
+            "phone": [
+              {
+                "number": "(555)555-555-1234",
+                "type": "work place"
+              }
+            ],
+            "organization": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "2.16.840.1.113883.19.5"
+                  }
+                ],
+                "name": [
+                  "Good Health Clinic"
+                ]
+              }
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "name": "Good Health Clinic",
+            "location_type": {
+              "name": "General Acute Care Hospital",
+              "code": "GACH",
+              "code_system_name": "HL7 Role"
+            },
+            "address": [
+              {
+                "street_lines": [
+                  "17 Daws Rd."
+                ],
+                "city": "Blue Bell",
+                "state": "MA",
+                "zip": "02368",
+                "country": "US"
+              }
+            ]
+          }
+        ],
+        "procedure_type": "act"
+      }
+    ],
+    "plan_of_care": [
+      {
+        "plan": {
+          "name": "Colonoscopy",
+          "code": "310634005",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "9a6d1bac-17d3-4195-89a4-1121bc809b4a"
+          }
+        ],
+        "date_time": {
+          "center": {
+            "date": "2000-04-21T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "type": "observation",
+        "status": {
+          "code": "new"
+        },
+        "subType": "Request"
+      },
+      {
+        "plan": {
+          "name": "Colonoscopy",
+          "code": "310634005",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "9a6d1bac-17d3-4195-89a4-1121bc809a5c"
+          }
+        ],
+        "date_time": {
+          "center": {
+            "date": "2000-04-21T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "type": "act",
+        "status": {
+          "code": "new"
+        },
+        "subType": "Request"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "9a6d1bac-17d3-4195-89a4-1121bc809b4d"
+          }
+        ],
+        "type": "encounter",
+        "subType": "Intent"
+      },
+      {
+        "plan": {
+          "name": "Colonoscopy",
+          "code": "310634005",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "9a6d1bac-17d3-4195-89c4-1121bc809b5a"
+          }
+        ],
+        "date_time": {
+          "center": {
+            "date": "2000-04-21T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "type": "procedure",
+        "status": {
+          "code": "new"
+        },
+        "subType": "Request"
+      }
+    ],
+    "reason_for_referral": {
+      "title": "REASON FOR REFERRAL",
+      "text": "<paragraph>Colonoscopy due to rectal bleeding.</paragraph>"
+    },
+    "review_of_systems": {
+      "code": {
+        "name": "REVIEW OF SYSTEMS",
+        "code": "10187-3",
+        "code_system_name": "LOINC"
+      },
+      "title": "REVIEW OF SYSTEMS",
+      "text": "Patient denies recent history of fever or malaise. Positive for weakness and shortness of breath. One episode of melena. No recent headaches. Positive for osteoarthritis in hips, knees and hands."
+    },
+    "assessment": "Recurrent GI bleed of unknown etiology; hypotension perhaps secondary to this but as likely secondary to polypharmacy.Acute on chronic anemia secondary to #1.Azotemia, acute renal failure with volume loss secondary to #1.Hyperkalemia secondary to #3 and on ACE and K+ supplement.Other chronic diagnoses as noted above, currently stable.",
+    "chief_complaint": "Dark stools."
+  },
+  "meta": {
+    "version": "1.10.8",
+    "identifiers": [
+      {
+        "identifier": "2.16.840.1.113883.19",
+        "extension": "999021"
+      }
+    ],
+    "confidentiality": "Normal",
+    "set_id": {
+      "identifier": "2.16.840.1.113883.19",
+      "extension": "111199021"
+    },
+    "sections": [
+      "header",
+      "demographics",
+      "vitals",
+      "results",
+      "medications",
+      "allergies",
+      "immunizations",
+      "social_history",
+      "procedures",
+      "plan_of_care",
+      "reason_for_referral",
+      "review_of_systems",
+      "assessment",
+      "chief_complaint"
+    ]
+  },
+  "errors": [
+    "nullFlavor alert:  missing but required identifier in Identifier -> assignedEntity -> Author -> Header -> CCD",
+    "nullFlavor alert:  missing but required identifier in Identifier -> assignedEntity -> Author -> Header -> CCD",
+    "nullFlavor alert:  missing but required identifier in Identifier -> assignedEntity -> Author -> Header -> CCD",
+    "nullFlavor alert:  missing but required identifier in Identifier -> assignedEntity -> Author -> Header -> CCD",
+    "cardinality error: found 5 when expecting 0..1 at //h:author",
+    "nullFlavor alert:  missing but required street_lines in Address -> Patient -> CCD",
+    "nullFlavor alert:  missing but required city in Address -> Patient -> CCD",
+    "nullFlavor alert:  missing but required identifier in Identifier -> medicationInformation -> medicationActivity -> medicationsSection -> CCD",
+    "nullFlavor alert:  missing but required identifier in Identifier -> author -> medicationSupplyOrder -> medicationActivity -> medicationsSection -> CCD",
+    "cardinality error: found 2 when expecting 0..1 at h:entryRelationship[@typeCode='REFR']/h:supply",
+    "nullFlavor alert:  missing but required identifier in Identifier -> MedicationPerformer -> MedicationDispense -> medicationActivity -> medicationsSection -> CCD",
+    "nullFlavor alert:  missing but required identifier in Identifier -> Indication -> ImmunizationActivity -> immunizationsSection -> CCD",
+    "nullFlavor alert:  missing but required location_type in serviceDeliveryLocation -> procedureProcedure -> procedureUnion -> proceduresSection -> CCD",
+    "nullFlavor alert:  missing but required plan in entry -> plan_of_care_section -> CCD"
+  ]
+}
