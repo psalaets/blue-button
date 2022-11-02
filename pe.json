@@ -1,0 +1,1226 @@
+{
+  "data": {
+    "header": {
+      "identifiers": [
+        {
+          "identifier": "db734647-fc99-424c-a864-7e3cda82e703"
+        }
+      ],
+      "confidentiality_code": {
+        "name": "Normal",
+        "code": "N",
+        "code_system_name": "Confidentiality Code"
+      },
+      "code": {
+        "name": "Summarization of Episode Note",
+        "code": "34133-9",
+        "code_system_name": "LOINC"
+      },
+      "template": [
+        "2.16.840.1.113883.10.20.22.1.1",
+        "2.16.840.1.113883.10.20.22.1.2"
+      ],
+      "title": "Community Health and Hospitals: Health Summary",
+      "date_time": {
+        "point": {
+          "date": "2014-04-16T00:00:00.000Z",
+          "precision": "day"
+        }
+      },
+      "author": {
+        "author": [
+          {
+            "identifiers": [
+              {
+                "identifier": "2.16.840.1.113883.4.6",
+                "extension": "99999999"
+              }
+            ],
+            "name": [
+              {
+                "last": "Seven",
+                "suffix": "MD",
+                "first": "Henry"
+              }
+            ],
+            "address": [
+              {
+                "street_lines": [
+                  "1002 Healthcare Drive"
+                ],
+                "city": "Portland",
+                "state": "OR",
+                "zip": "99123",
+                "country": "US"
+              }
+            ],
+            "phone": [
+              {
+                "number": "555-555-1002",
+                "type": "work place"
+              }
+            ],
+            "code": [
+              {
+                "name": "Allopathic & Osteopathic Physicians",
+                "code": "200000000X"
+              }
+            ]
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2014-04-16T00:00:00.000Z",
+            "precision": "day"
+          }
+        }
+      },
+      "data_enterer": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.4.6",
+            "extension": "999999943252"
+          }
+        ],
+        "name": [
+          {
+            "last": "Seven",
+            "first": "Henry"
+          }
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "1001 Village Avenue"
+            ],
+            "city": "Portland",
+            "state": "OR",
+            "zip": "99123",
+            "country": "US"
+          }
+        ],
+        "phone": [
+          {
+            "number": "555-555-1002",
+            "type": "work place"
+          }
+        ],
+        "code": [
+          {
+            "name": "Allopathic & Osteopathic Physicians",
+            "code": "207Q00000X"
+          }
+        ]
+      },
+      "informant": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.4.6",
+            "extension": "99999999"
+          }
+        ],
+        "name": [
+          {
+            "last": "Seven",
+            "first": "Henry"
+          }
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "1001 Village Avenue"
+            ],
+            "city": "Portland",
+            "state": "OR",
+            "zip": "99123",
+            "country": "US"
+          }
+        ],
+        "phone": [
+          {
+            "number": "555-555-1002",
+            "type": "work place"
+          }
+        ],
+        "code": [
+          {
+            "name": "Allopathic & Osteopathic Physicians",
+            "code": "200000000X"
+          }
+        ]
+      },
+      "custodian": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.4.6",
+            "extension": "99999999"
+          }
+        ],
+        "name": [
+          "Community Health and Hospitals"
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "1002 Healthcare Drive"
+            ],
+            "city": "Portland",
+            "state": "OR",
+            "zip": "99123",
+            "country": "US",
+            "use": "work place"
+          }
+        ],
+        "phone": [
+          {
+            "number": "555-555-1002",
+            "type": "work place"
+          }
+        ]
+      },
+      "service_event": {
+        "date_time": {
+          "low": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          },
+          "high": {
+            "date": "2010-06-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "performer": [
+          {
+            "performer": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "2.16.840.1.113883.4.6",
+                    "extension": "PseudoMD-1"
+                  }
+                ],
+                "name": [
+                  {
+                    "last": "Seven",
+                    "suffix": "MD",
+                    "first": "Henry"
+                  }
+                ],
+                "address": [
+                  {
+                    "street_lines": [
+                      "1001 Village Avenue"
+                    ],
+                    "city": "Portland",
+                    "state": "OR",
+                    "zip": "99123",
+                    "country": "US"
+                  }
+                ],
+                "phone": [
+                  {
+                    "number": "+1-555-555-5000",
+                    "type": "primary home"
+                  }
+                ],
+                "organization": [
+                  {
+                    "identifiers": [
+                      {
+                        "identifier": "2.16.840.1.113883.19.5.9999.1393"
+                      }
+                    ],
+                    "name": [
+                      "Community Health and Hospitals"
+                    ],
+                    "address": [
+                      {
+                        "street_lines": [
+                          "1001 Village Avenue"
+                        ],
+                        "city": "Portland",
+                        "state": "OR",
+                        "zip": "99123",
+                        "country": "US"
+                      }
+                    ],
+                    "phone": [
+                      {
+                        "number": "+1-555-555-5000",
+                        "type": "primary home"
+                      }
+                    ]
+                  }
+                ],
+                "code": [
+                  {
+                    "name": "Primary Care [Ambulatory Health Care Facilities\\Clinic/Center]",
+                    "code": "261QP2300X",
+                    "code_system_name": "NUCC Provider Codes"
+                  }
+                ]
+              }
+            ],
+            "code": {
+              "name": "Primary Care Physician",
+              "code": "PCP",
+              "code_system_name": "participationFunction"
+            }
+          }
+        ]
+      }
+    },
+    "demographics": {
+      "name": {
+        "last": "King",
+        "first": "Elaine"
+      },
+      "dob": {
+        "point": {
+          "date": "1973-02-08T00:00:00.000Z",
+          "precision": "day"
+        }
+      },
+      "gender": {
+        "name": "Female",
+        "code": "F",
+        "code_system_name": "HL7 AdministrativeGender"
+      },
+      "identifiers": [
+        {
+          "identifier": "2.16.840.1.113883.19.5.99999.2",
+          "extension": "998991"
+        },
+        {
+          "identifier": "2.16.840.1.113883.4.1",
+          "extension": "111-00-2330"
+        }
+      ],
+      "marital_status": {
+        "name": "Married",
+        "code": "M",
+        "code_system_name": "HL7 Marital Status"
+      },
+      "addresses": [
+        {
+          "street_lines": [
+            "960 Hardman Road"
+          ],
+          "city": "Essex Junction",
+          "state": "VT",
+          "zip": "5452",
+          "country": "US",
+          "use": "primary home"
+        }
+      ],
+      "phone": [
+        {
+          "number": "(802)769-0268",
+          "type": "mobile contact"
+        }
+      ],
+      "race": {
+        "name": "White",
+        "code": "2106-3",
+        "code_system_name": "Race and Ethnicity - CDC"
+      },
+      "ethnicity": {
+        "name": "Not Hispanic or Latino",
+        "code": "2186-5",
+        "code_system_name": "Race and Ethnicity - CDC"
+      },
+      "languages": [
+        {
+          "language": {
+            "code": "spa"
+          },
+          "preferred": true,
+          "mode": {
+            "name": "Expressed spoken",
+            "code": "ESP",
+            "code_system_name": "LanguageAbilityMode"
+          }
+        }
+      ],
+      "religion": {
+        "name": "Zen Buddhism",
+        "code": "1059",
+        "code_system_name": "HL7 Religious Affiliation"
+      },
+      "birthplace": {
+        "city": "Gaithersburg",
+        "state": "MD",
+        "zip": "20877",
+        "country": "US"
+      },
+      "guardians": [
+        {
+          "relation": {
+            "name": "friend",
+            "code": "FRND",
+            "code_system_name": "HL7 Role"
+          },
+          "addresses": [
+            {
+              "street_lines": [
+                "4264 Bobcat Drive"
+              ],
+              "city": "Washington",
+              "state": "MD",
+              "zip": "20200",
+              "country": "US",
+              "use": "primary home"
+            }
+          ],
+          "names": [
+            {
+              "prefix": "Mr.",
+              "last": "Stafford",
+              "first": "William"
+            }
+          ],
+          "phone": [
+            {
+              "number": "(240)897-8087",
+              "type": "primary home"
+            },
+            {
+              "number": "email:WilliamKStafford@gustr.com",
+              "type": "work place"
+            }
+          ]
+        }
+      ]
+    },
+    "vitals": [
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 28.8,
+        "unit": "kg/m2"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 84,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 134,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-05-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 28.4,
+        "unit": "kg/m2"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-05-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 86,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-05-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 130,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-06-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 28.8,
+        "unit": "kg/m2"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-06-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 84,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "c6f88321-67ad-11db-bd13-0800200c9a66"
+          }
+        ],
+        "vital": {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2010-06-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "value": 132,
+        "unit": "mm[Hg]"
+      }
+    ],
+    "results": [
+      {
+        "identifiers": [
+          {
+            "identifier": "7d5a02b0-67a4-11db-bd13-0800200c9a66"
+          }
+        ],
+        "result_set": {
+          "name": "Cytology",
+          "code": "116147009",
+          "code_system_name": "SNOMED CT"
+        },
+        "results": [
+          {
+            "identifiers": [
+              {
+                "identifier": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+              }
+            ],
+            "result": {
+              "name": "Cyto Cervix",
+              "code": "10524-7",
+              "code_system_name": "LOINC",
+              "translations": [
+                {
+                  "name": "Cytopath, c/v auto, in fluid",
+                  "code": "88174",
+                  "code_system_name": "CPT"
+                },
+                {
+                  "name": "Scr c/v cyto, automated sys",
+                  "code": "G0147",
+                  "code_system_name": "HCPCS"
+                },
+                {
+                  "name": "Encounter for screening for malignant neoplasm of cervix",
+                  "code": "Z12.4",
+                  "code_system_name": "ICD-10-CM"
+                },
+                {
+                  "name": "Encounter for Papanicolaou cervical smear to confirm findings of recent normal smear following initial abnormal smear",
+                  "code": "V72.32",
+                  "code_system_name": "ICD-9-CM"
+                },
+                {
+                  "name": "Microscopic examination of cervical Papanicolaou smear",
+                  "code": "440623000",
+                  "code_system_name": "SNOMED CT"
+                }
+              ]
+            },
+            "date_time": {
+              "point": {
+                "date": "2010-06-28T00:00:00.000Z",
+                "precision": "day"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "range": "NA"
+            },
+            "interpretations": [
+              {
+                "code": "N",
+                "name": "Normal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "date_time": {
+          "low": {
+            "date": "2012-03-18T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "6c844c75-aa34-411c-b7bd-5e4a9f206e29"
+          }
+        ],
+        "status": "Completed",
+        "product": {
+          "identifiers": [
+            {
+              "identifier": "2a620155-9d11-439e-92b3-5d9815ff4ee8"
+            }
+          ],
+          "product": {
+            "name": "Atenolol 25 MG Oral Tablet",
+            "code": "197380",
+            "code_system_name": "RXNORM"
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "ORAL",
+            "code": "C38288",
+            "code_system_name": "Medication Route FDA"
+          },
+          "dose": {
+            "value": 1
+          },
+          "interval": {
+            "period": {
+              "value": 12,
+              "unit": "h"
+            },
+            "frequency": true
+          }
+        },
+        "indication": {
+          "identifiers": [
+            {
+              "identifier": "e63166c7-6482-4a44-83a1-37ccdbde725b"
+            }
+          ],
+          "code": {
+            "name": "Clinical finding",
+            "code": "75321-0",
+            "code_system_name": "LOINC"
+          },
+          "value": {
+            "name": "Hypertension",
+            "code": "38341003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      }
+    ],
+    "encounters": [
+      {
+        "encounter": {
+          "name": "Office/outpatient visit, est",
+          "code": "99213",
+          "code_system_name": "CPT",
+          "translations": [
+            {
+              "name": "Routine general medical examination at a health care facility",
+              "code": "V70.0",
+              "code_system_name": "ICD-9-CM"
+            }
+          ]
+        },
+        "identifiers": [
+          {
+            "identifier": "2a620155-9d11-439e-92b3-5d9815ff4de8"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "findings": [
+          {
+            "identifiers": [
+              {
+                "identifier": "db734647-fc99-424c-a864-7e3cda82e703",
+                "extension": "45665"
+              }
+            ],
+            "value": {
+              "name": "low back pain",
+              "code": "279039007",
+              "code_system_name": "SNOMED CT",
+              "translations": [
+                {
+                  "name": "Dorsalgia, unspecified",
+                  "code": "M54.9",
+                  "code_system_name": "ICD-10-CM"
+                },
+                {
+                  "name": "Lumbago",
+                  "code": "724.2",
+                  "code_system_name": "ICD-9-CM"
+                }
+              ]
+            },
+            "date_time": {
+              "low": {
+                "date": "2010-04-25T00:00:00.000Z",
+                "precision": "day"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "encounter": {
+          "name": "Chiropractic manipulation",
+          "code": "98940",
+          "code_system_name": "CPT"
+        },
+        "identifiers": [
+          {
+            "identifier": "2a620155-9d11-439e-92b3-5d9815ff4de8"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2010-05-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        }
+      },
+      {
+        "encounter": {
+          "name": "Office/outpatient visit, est",
+          "code": "99213",
+          "code_system_name": "CPT",
+          "translations": [
+            {
+              "name": "Routine general medical examination at a health care facility",
+              "code": "V70.0",
+              "code_system_name": "ICD-9-CM"
+            }
+          ]
+        },
+        "identifiers": [
+          {
+            "identifier": "2a620155-9d11-439e-92b3-5d9815ff4de8"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2010-06-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "findings": [
+          {
+            "identifiers": [
+              {
+                "identifier": "db734647-fc99-424c-a864-7e3cda82e703",
+                "extension": "45665"
+              }
+            ],
+            "value": {
+              "name": "Hypertension",
+              "code": "59621000",
+              "code_system_name": "SNOMED CT",
+              "translations": [
+                {
+                  "name": "Essential (primary) hypertension",
+                  "code": "I10",
+                  "code_system_name": "ICD-10-CM"
+                },
+                {
+                  "name": "Unspecified essential hypertension",
+                  "code": "401.9",
+                  "code_system_name": "ICD-9-CM"
+                }
+              ]
+            },
+            "date_time": {
+              "low": {
+                "date": "2010-06-28T00:00:00.000Z",
+                "precision": "day"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "allergies": [
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "low": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "Eggs",
+            "code": "291P45F896",
+            "code_system_name": "UNII",
+            "translations": [
+              {
+                "name": "Allergy to eggs",
+                "code": "V15.03",
+                "code_system_name": "ICD-9-CM"
+              }
+            ]
+          },
+          "intolerance": {
+            "name": "Food allergy (disorder)",
+            "code": "414285001",
+            "code_system_name": "SNOMED CT"
+          },
+          "severity": {
+            "code": {
+              "name": "Moderate to severe",
+              "code": "371924009",
+              "code_system_name": "SNOMED CT"
+            },
+            "interpretation": {
+              "name": "Moderately Susceptible",
+              "code": "MS",
+              "code_system_name": "Observation Interpretation"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "low": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "Baker's yeast allergenic extract 100 MG/ML Injectable Solution",
+            "code": "892677",
+            "code_system_name": "RXNORM"
+          },
+          "intolerance": {
+            "name": "Drug allergy (disorder)",
+            "code": "416098002",
+            "code_system_name": "SNOMED CT"
+          },
+          "severity": {
+            "code": {
+              "name": "Mild to moderate",
+              "code": "371923003",
+              "code_system_name": "SNOMED CT"
+            },
+            "interpretation": {
+              "name": "Susceptible",
+              "code": "S",
+              "code_system_name": "Observation Interpretation"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "low": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "Penicillin V",
+            "code": "N0000011298",
+            "code_system_name": "NDF-RT"
+          },
+          "intolerance": {
+            "name": "Drug allergy (disorder)",
+            "code": "416098002",
+            "code_system_name": "SNOMED CT"
+          },
+          "severity": {
+            "code": {
+              "name": "Fatal",
+              "code": "399166001",
+              "code_system_name": "SNOMED CT"
+            },
+            "interpretation": {
+              "name": "Moderately Susceptible",
+              "code": "MS",
+              "code_system_name": "Observation Interpretation"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      }
+    ],
+    "immunizations": [
+      {
+        "date_time": {
+          "code": "NI",
+          "code_system_name": "Null Flavor",
+          "name": "no information"
+        },
+        "status": "refused",
+        "product": {
+          "product": {
+            "code": "NI",
+            "code_system_name": "Null Flavor",
+            "name": "no information"
+          }
+        }
+      }
+    ],
+    "social_history": [
+      {
+        "date_time": {
+          "low": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19",
+            "extension": "123456789"
+          }
+        ],
+        "code": {
+          "name": "Smoking Status"
+        },
+        "value": "Never smoker (Never Smoked)",
+        "history_type": "smoking"
+      }
+    ],
+    "problems": [
+      {
+        "date_time": {
+          "low": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "9d3d416d-45ab-4da1-912f-4583e0632000"
+          }
+        ],
+        "problem": {
+          "code": {
+            "name": "Low back pain",
+            "code": "279039007",
+            "code_system_name": "SNOMED CT",
+            "translations": [
+              {
+                "name": "Dorsalgia, unspecified",
+                "code": "M54.9",
+                "code_system_name": "ICD-10-CM"
+              },
+              {
+                "name": "Lumbago",
+                "code": "724.2",
+                "code_system_name": "ICD-9-CM"
+              }
+            ]
+          },
+          "date_time": {
+            "low": {
+              "date": "2010-04-25T00:00:00.000Z",
+              "precision": "day"
+            }
+          }
+        },
+        "status": {
+          "name": "Active"
+        },
+        "source_list_identifiers": [
+          {
+            "identifier": "ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7"
+          }
+        ]
+      },
+      {
+        "date_time": {
+          "low": {
+            "date": "2010-06-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "9d3d416d-45ab-4da1-912f-4583e0632000"
+          }
+        ],
+        "problem": {
+          "code": {
+            "name": "Essential hypertension",
+            "code": "59621000",
+            "code_system_name": "SNOMED CT",
+            "translations": [
+              {
+                "name": "Essential (primary) hypertension",
+                "code": "I10",
+                "code_system_name": "ICD-10-CM"
+              },
+              {
+                "name": "Unspecified essential hypertension",
+                "code": "401.9",
+                "code_system_name": "ICD-9-CM"
+              }
+            ]
+          },
+          "date_time": {
+            "low": {
+              "date": "2010-06-28T00:00:00.000Z",
+              "precision": "day"
+            }
+          }
+        },
+        "status": {
+          "name": "Active"
+        },
+        "source_list_identifiers": [
+          {
+            "identifier": "ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7"
+          }
+        ]
+      }
+    ],
+    "procedures": [
+      {
+        "procedure": {
+          "name": "Patient referral to dietitian",
+          "code": "103699006",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "e401f340-7be2-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "status": "Completed",
+        "date_time": {
+          "point": {
+            "date": "2010-04-25T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "procedure_type": "act"
+      },
+      {
+        "procedure": {
+          "name": "X-ray exam of spine",
+          "code": "72010",
+          "code_system_name": "CPT",
+          "translations": [
+            {
+              "name": "Diagnostic radiography of spine, survey study",
+              "code": "91583001",
+              "code_system_name": "SNOMED CT"
+            }
+          ]
+        },
+        "identifiers": [
+          {
+            "identifier": "e401f340-7be2-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "status": "Completed",
+        "date_time": {
+          "point": {
+            "date": "2010-05-28T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "procedure_type": "observation"
+      }
+    ],
+    "physicalExam": "Recurrent GI bleed of unknown etiology; hypotension perhaps secondary to this but as likely secondary to polypharmacy.Acute on chronic anemia secondary to #1.Azotemia, acute renal failure with volume loss secondary to #1.Hyperkalemia secondary to #3 and on ACE and K+ supplement.Other chronic diagnoses as noted above, currently stable."
+  },
+  "meta": {
+    "version": "1.10.8",
+    "identifiers": [
+      {
+        "identifier": "db734647-fc99-424c-a864-7e3cda82e703"
+      }
+    ],
+    "confidentiality": "Normal",
+    "set_id": {
+      "identifier": "2.16.840.1.113883.19.5.99999.19",
+      "extension": "sTT988"
+    },
+    "sections": [
+      "header",
+      "demographics",
+      "vitals",
+      "results",
+      "medications",
+      "encounters",
+      "allergies",
+      "immunizations",
+      "social_history",
+      "problems",
+      "procedures",
+      "physicalExam"
+    ]
+  },
+  "errors": [
+    "cardinality error: found 2 when expecting 0..1 at //h:author",
+    "cardinality error: found 3 when expecting 0..1 at //h:informant/h:assignedEntity",
+    "nullFlavor alert:  missing but required street_lines in Address -> Patient -> CCD",
+    "nullFlavor alert:  missing but required physicalQuantity in ResultObservation -> ResultsOrganizer -> resultsSection -> CCD",
+    "nullFlavor alert:  missing but required precondition in medicationActivity -> medicationsSection -> CCD",
+    "cardinality error: found 2 when expecting 1..1 at h:effectiveTime",
+    "cardinality error: found 2 when expecting 0..1 at .//h:templateId[@root='2.16.840.1.113883.10.20.22.2.2.1']/.. | .//h:templateId[@root='2.16.840.1.113883.10.20.22.2.2']/..",
+    "nullFlavor alert:  missing but required value in procedureObservation -> procedureUnion -> proceduresSection -> CCD"
+  ]
+}

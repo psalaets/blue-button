@@ -671,9 +671,9 @@
                 </section>
             </component>
             <component>
-                <section>
+                <section nullFlavor="UNK">
                     <!-- <section nullFlavor="UNK"> if this is not present, section shall contain at least (1..*) one entry-->
-                    <templateId root="2.16.840.1.113883.10.20.21.2.45"
+                    <templateId root="2.16.840.1.113883.10.20.22.2.45"
                         extension="2014-06-09" />
                     <code code="69730-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="INSTRUCTIONS" />
                     <title>INSTRUCTIONS</title>
@@ -681,10 +681,10 @@
                         Patient may have low grade fever, mild joint pain and injection area
                         tenderness
                     </text>
-                    <entry typeCode="DRIV">
+<!--                     <entry typeCode="DRIV">
                         <act classCode="ACT" moodCode="INT">
                             <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09"/>
-                            <!-- *** Instructions template ***  -->
+
                             <code code="171044003" codeSystem="2.16.840.1.113883.6.96" displayName="immunization education" />
                             <text>
                                 <reference value="#immunSect" />
@@ -694,7 +694,7 @@
 
 
                         </act>
-                    </entry>
+                    </entry> -->
                 </section>
             </component>
             <component>
@@ -16823,10 +16823,15 @@ MADISON, CA 956530000
 </text>
                     <entry typeCode="DRIV">
                         <act classCode="ACT" moodCode="INT">
-                            <templateId root="2.16.840.1.113883.10.20.22.4.20" />
-                            <!-- *** Instructions template ***  -->
-                            ...
-                        </act>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+                            <code code="171044003" codeSystem="2.16.840.1.113883.6.96" displayName="immunization education" />
+                            <text>
+                              <reference value="#immunSect" />
+                                  Possible flu-like symptoms for three days.
+
+                            </text>
+                            <statusCode code="completed" />
+                          </act>
                     </entry>
                 </section>
             </component>

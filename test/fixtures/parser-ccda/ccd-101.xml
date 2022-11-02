@@ -3,6 +3,7 @@
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="urn:hl7-org:v3 ../../C-CDA%20rules/infrastructure/cda/CDA_SDTC.xsd"
 	xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc">
+
 	<!--
 ********************************************************
 CDA Header
@@ -2029,6 +2030,139 @@ Vital Signs section
 PHYSICAL EXAMINATION
 ************************************
 -->
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.2.10" extension="2015-08-01" />
+					<code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="29545-1" displayName="Physical Findings" />
+					<title>Physical Examination</title>
+					<!--**10.4.1 Physical Exam at Transfer -->
+					<text>
+						<list listType="ordered">
+							<item>Recurrent GI bleed of unknown etiology; hypotension perhaps
+					  secondary to this but as likely secondary to polypharmacy.</item>
+							<item>Acute on chronic anemia secondary to #1.</item>
+							<item>Azotemia, acute renal failure with volume loss secondary to
+					  #1.</item>
+							<item>Hyperkalemia secondary to #3 and on ACE and K+ supplement.</item>
+							<item>Other chronic diagnoses as noted above, currently stable.</item>
+						</list>
+					</text>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<!-- Wound Observation template -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.114" extension="2015-08-01" />
+							<id root="ab1791b0-5c71-11db-b0de-0800200c9a66" />
+							<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20013103" />
+							</effectiveTime>
+							<value xsi:type="CD" code="425144005" codeSystem="2.16.840.1.113883.6.6" displayName="Minor open wound" />
+							<targetSiteCode code="182295001" codeSystem="2.16.840.1.113883.6.96" displayName="anterior aspect of knee" />
+							<author>
+								<templateId root="2.16.840.1.113883.10.20.22.4.119" />
+								<time value="201308011235-0800" />
+								<assignedAuthor>
+									<id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18c" />
+									<code code="163W00000X" codeSystem="2.16.840.1.113883.5.53" codeSystemName="Health Care Provider Taxonomy" displayName="Registered nurse" />
+									<assignedPerson>
+										<name>
+											<given>Nurse</given>
+											<family>Nightingale</family>
+											<suffix>RN</suffix>
+										</name>
+									</assignedPerson>
+									<representedOrganization>
+										<id root="2.16.840.1.113883.19.5" />
+										<name>Good Health Hospital</name>
+									</representedOrganization>
+								</assignedAuthor>
+							</author>
+							<entryRelationship typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<!-- Wound Measurements Observation -->
+									<templateId root="2.16.840.1.113883.10.20.22.4.133" />
+									<entryRelationship typeCode="COMP">
+										<observation classCode="OBS" moodCode="EVN">
+											<!-- Wound Measurements Observation . -->
+											<templateId root="2.16.840.1.113883.10.20.22.4.133" />
+											<id root="d2b46280-eb34-11e2-91e2-0800200c9a66" />
+											<code code=" 401238003" codeSystem="2.16.840.1.113883.6.96" displayName="Length of Wound" />
+											<statusCode code="completed" />
+											<effectiveTime value="20013103" />
+											<value xsi:type="PQ" value="2" unit="[in_i]" />
+										</observation>
+									</entryRelationship>
+
+
+								</observation>
+							</entryRelationship>
+
+							<entryRelationship typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<!-- Wound Characteristic -->
+									<templateId root="2.16.840.1.113883.10.20.22.4.134" />
+									<entryRelationship typeCode="COMP">
+										<observation classCode="OBS" moodCode="EVN">
+											<!-- Wound Characteristic -->
+											<templateId root="2.16.840.1.113883.10.20.22.4.134" />
+											<id root="763428a0-eb35-11e2-91e2-0700200c9a66" />
+											<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+											<statusCode code="completed" />
+											<effectiveTime value="20013103" />
+											<value xsi:type="CD" code="447547000" displayName="Offensive wound odor" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" />
+										</observation>
+									</entryRelationship>
+
+
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<!-- Number of Pressure Ulcers -->
+									<templateId root="2.16.840.1.113883.10.20.22.4.76" />
+									<entryRelationship typeCode="COMP">
+										<observation classCode="OBS" moodCode="EVN">
+											<!-- Number of Pressure Ulcers -->
+											<templateId root="2.16.840.1.113883.10.20.22.4.76" extension="2015-08-01" />
+											<id root="08edb7c0-2111-43f2-a784-9a5fdfaa67f0" />
+											<code code="2264892003" displayName="Number of pressure ulcers"
+												codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+												<translation code="75277-4"
+													displayName="Number of pressure ulcers"
+													codeSystem="2.16.840.1.113883.6.1"
+													codeSystemName="LOINC"></translation>
+											</code>
+											<statusCode code="completed" />
+											<value xsi:type="INT" value="3" />
+											<entryRelationship typeCode="SUBJ">
+												<observation classCode="OBS" moodCode="EVN">
+													<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+													<value xsi:type="CD" code="421927004" codeSystem="2.16.840.1.113883.6.96" displayName="Pressure ulcer stage 3" />
+												</observation>
+											</entryRelationship>
+										</observation>
+									</entryRelationship>
+
+
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.77" />
+									<id root="08edb7c0-2111-43f2-a784-9a5fdfaa67f0" />
+									<code code="420905001" codeSystem="2.16.840.1.113883.6.96"
+										displayName=" Highest Pressure Ulcer Stage" />
+									<statusCode code="completed" />
+									<value xsi:type="CD" code="421306004"
+										codeSystem="2.16.840.1.113883.6.96"
+										displayName="necrotic eschar" />
+								</observation>
+							</entryRelationship>
+						</observation>
+					</entry>
+				</section>
+			</component>
 		</structuredBody>
 	</component>
 </ClinicalDocument>

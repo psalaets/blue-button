@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../blue-button-model"
+		},
+		{
+			"path": "../CDA-core-2.1"
+		}
+	],
+	"settings": {}
+}

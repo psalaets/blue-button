@@ -1,0 +1,1193 @@
+{
+  "data": {
+    "header": {
+      "identifiers": [
+        {
+          "identifier": "2.16.840.1.113883.19",
+          "extension": "999022"
+        }
+      ],
+      "confidentiality_code": {
+        "code": "N",
+        "name": "Normal",
+        "code_system_name": "Confidentiality Code"
+      },
+      "code": {
+        "name": "Subsequent evaluation note",
+        "code": "11506-3",
+        "code_system_name": "LOINC"
+      },
+      "template": [
+        "2.16.840.1.113883.10.20.22.1.1",
+        "2.16.840.1.113883.10.20.22.1.9"
+      ],
+      "title": "Progress Note",
+      "date_time": {
+        "point": {
+          "date": "2005-03-29T22:15:04.000Z",
+          "precision": "second"
+        }
+      },
+      "author": {
+        "author": [
+          {
+            "identifiers": [
+              {
+                "identifier": "2.16.840.1.113883.19.5",
+                "extension": "KP00017"
+              }
+            ],
+            "name": [
+              {
+                "last": "Seven",
+                "first": "Henry"
+              }
+            ],
+            "address": [
+              {
+                "street_lines": [
+                  "21 North Ave."
+                ],
+                "city": "Burlington",
+                "state": "MA",
+                "zip": "02368",
+                "country": "USA"
+              }
+            ],
+            "phone": [
+              {
+                "number": "(555)555-1003",
+                "type": "work place"
+              }
+            ]
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2005-03-30T03:44:11.000Z",
+            "precision": "second"
+          }
+        }
+      },
+      "data_enterer": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19.5",
+            "extension": "43252"
+          }
+        ],
+        "name": [
+          {
+            "last": "Seven",
+            "first": "Henry"
+          }
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "21 North Ave."
+            ],
+            "city": "Burlington",
+            "state": "MA",
+            "zip": "02368",
+            "country": "USA"
+          }
+        ],
+        "phone": [
+          {
+            "number": "(555)555-1003",
+            "type": "work place"
+          }
+        ]
+      },
+      "informant": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19.5",
+            "extension": "KP00017"
+          }
+        ],
+        "name": [
+          {
+            "last": "Seven",
+            "first": "Henry"
+          }
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "21 North Ave."
+            ],
+            "city": "Burlington",
+            "state": "MA",
+            "zip": "02368",
+            "country": "USA"
+          }
+        ],
+        "phone": [
+          {
+            "number": "(555)555-1003"
+          }
+        ]
+      },
+      "custodian": {
+        "identifiers": [
+          {
+            "identifier": "2.16.840.1.113883.19.5"
+          }
+        ],
+        "name": [
+          "Good Health Clinic"
+        ],
+        "address": [
+          {
+            "street_lines": [
+              "17 Daws Rd."
+            ],
+            "city": "Blue Bell",
+            "state": "MA",
+            "zip": "02368",
+            "country": "USA",
+            "use": "work place"
+          }
+        ],
+        "phone": [
+          {
+            "number": "(555)555-1212",
+            "type": "work place"
+          }
+        ]
+      },
+      "service_event": {
+        "date_time": {
+          "low": {
+            "date": "2010-06-01T00:00:00.000Z",
+            "precision": "day"
+          },
+          "high": {
+            "date": "2010-09-15T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "performer": [
+          {
+            "performer": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "2.16.840.1.113883.19",
+                    "extension": "PseudoMD-1"
+                  }
+                ],
+                "name": [
+                  {
+                    "prefix": "Dr.",
+                    "last": "Physician-1",
+                    "first": "Pseudo"
+                  }
+                ],
+                "phone": [
+                  {
+                    "number": "+1-301-975-3251",
+                    "type": "primary home"
+                  }
+                ],
+                "organization": [
+                  {
+                    "identifiers": [
+                      {
+                        "identifier": "2.16.840.1.113883.3.72.5"
+                      }
+                    ],
+                    "name": [
+                      "NIST HL7 Test Laboratory"
+                    ]
+                  }
+                ],
+                "code": [
+                  {
+                    "name": "Allopathic and Osteopathic Physicians",
+                    "code": "200000000X",
+                    "code_system_name": "Provider Codes"
+                  }
+                ]
+              }
+            ],
+            "code": {
+              "name": "Primary Care Provider",
+              "code": "PCP",
+              "code_system_name": "ParticipationFunction"
+            }
+          },
+          {
+            "performer": [
+              {
+                "identifiers": [
+                  {
+                    "identifier": "2.16.840.1.113883.19",
+                    "extension": "PseudoMD-3"
+                  }
+                ],
+                "name": [
+                  {
+                    "prefix": "Dr.",
+                    "last": "Physician-3",
+                    "first": "Pseudo"
+                  }
+                ],
+                "phone": [
+                  {
+                    "number": "+1-301-975-3251",
+                    "type": "primary home"
+                  }
+                ],
+                "organization": [
+                  {
+                    "identifiers": [
+                      {
+                        "identifier": "2.16.840.1.113883.19.123"
+                      }
+                    ],
+                    "name": [
+                      "HL7 Test Laboratory"
+                    ]
+                  }
+                ],
+                "code": [
+                  {
+                    "name": "Allopathic and Osteopathic Physicians",
+                    "code": "200000000X",
+                    "code_system_name": "Provider Codes"
+                  }
+                ]
+              }
+            ],
+            "code": {
+              "name": "Primary Care Provider",
+              "code": "PP",
+              "code_system_name": "Provider Role"
+            }
+          }
+        ]
+      }
+    },
+    "demographics": {
+      "name": {
+        "prefix": "Mr.",
+        "middle": [
+          "Frankie"
+        ],
+        "last": "Everyman",
+        "first": "Adam"
+      },
+      "dob": {
+        "point": {
+          "date": "1954-11-25T00:00:00.000Z",
+          "precision": "day"
+        }
+      },
+      "gender": {
+        "name": "Male",
+        "code": "M",
+        "code_system_name": "HL7 AdministrativeGender"
+      },
+      "identifiers": [
+        {
+          "identifier": "2.16.840.1.113883.19",
+          "extension": "12345"
+        },
+        {
+          "identifier": "2.16.840.1.113883.4.1",
+          "extension": "111-00-1234"
+        }
+      ],
+      "marital_status": {
+        "name": "Married",
+        "code": "M",
+        "code_system_name": "HL7 Marital Status"
+      },
+      "addresses": [
+        {
+          "street_lines": [
+            "17 Daws Rd."
+          ],
+          "city": "Blue Bell",
+          "state": "MA",
+          "zip": "02368",
+          "country": "US",
+          "use": "primary home"
+        }
+      ],
+      "phone": [
+        {
+          "number": "(781)555-1212",
+          "type": "primary home"
+        }
+      ],
+      "race": {
+        "name": "White",
+        "code": "2106-3",
+        "code_system_name": "Race and Ethnicity - CDC"
+      },
+      "ethnicity": {
+        "name": "Not Hispanic or Latino",
+        "code": "2186-5",
+        "code_system_name": "Race and Ethnicity - CDC"
+      },
+      "languages": [
+        {
+          "language": {
+            "code": "fr-CN"
+          },
+          "preferred": true,
+          "mode": {
+            "name": "Recieve Written",
+            "code": "RWR",
+            "code_system_name": "LanguageAbilityMode"
+          }
+        }
+      ],
+      "religion": {
+        "name": "Christian (non-Catholic, non-specific)",
+        "code": "1013",
+        "code_system_name": "HL7 Religion"
+      },
+      "birthplace": {
+        "state": "MA",
+        "zip": "02368",
+        "country": "USA"
+      },
+      "guardians": [
+        {
+          "relation": {
+            "name": "Grandfather",
+            "code": "GRFTH",
+            "code_system_name": "HL7 Role"
+          },
+          "addresses": [
+            {
+              "street_lines": [
+                "17 Daws Rd."
+              ],
+              "city": "Blue Bell",
+              "state": "MA",
+              "zip": "02368",
+              "country": "US",
+              "use": "primary home"
+            }
+          ],
+          "names": [
+            {
+              "last": "Relative",
+              "first": "Ralph"
+            }
+          ],
+          "phone": [
+            {
+              "number": "(781)555-1212",
+              "type": "primary home"
+            }
+          ]
+        }
+      ]
+    },
+    "vitals": [
+      {
+        "identifiers": [
+          {
+            "identifier": "ed9589fd-fda0-41f7-a3d0-dc537554f5c2"
+          }
+        ],
+        "vital": {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2012-09-10T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 177,
+        "unit": "cm"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "f4e729e2-a97f-4a7e-8e23-c92f9b6b55cf"
+          }
+        ],
+        "vital": {
+          "name": "Patient Body Weight - Measured",
+          "code": "3141-9",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2012-09-10T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 86,
+        "unit": "kg"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "a0e39c70-9674-4b2a-9837-cdf74200d8d5"
+          }
+        ],
+        "vital": {
+          "name": "Intravascular Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2012-09-10T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 132,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "1c2748b7-e440-41ba-bc01-dde97d84a036"
+          }
+        ],
+        "vital": {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2012-09-10T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 88,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "05c047cd-28c3-41cd-be6c-56f8cc0c3f2f"
+          }
+        ],
+        "vital": {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2011-09-01T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 177,
+        "unit": "cm"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "21b0f3d5-7d07-4f4f-ad7e-c33dc2ca3835"
+          }
+        ],
+        "vital": {
+          "name": "Patient Body Weight - Measured",
+          "code": "3141-9",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2011-09-01T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 88,
+        "unit": "kg"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "b046c35a-59c7-4215-ae09-9a8409a30b21"
+          }
+        ],
+        "vital": {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2011-09-01T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 128,
+        "unit": "mm[Hg]"
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "44f54e66-fb4b-4ee5-9ced-9574ef307a23"
+          }
+        ],
+        "vital": {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system_name": "LOINC"
+        },
+        "status": "completed",
+        "date_time": {
+          "point": {
+            "date": "2011-09-01T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "interpretations": [
+          "Normal"
+        ],
+        "value": 80,
+        "unit": "mm[Hg]"
+      }
+    ],
+    "results": [
+      {
+        "identifiers": [
+          {
+            "identifier": "7d5a02b0-67a4-11db-bd13-0800200c9a66"
+          }
+        ],
+        "result_set": {
+          "name": "CBC W Auto Differential panel in Blood",
+          "code": "57021-8",
+          "code_system_name": "LOINC"
+        },
+        "results": [
+          {
+            "identifiers": [
+              {
+                "identifier": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+              }
+            ],
+            "result": {
+              "name": "Hemoglobin",
+              "code": "718-7",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2013-03-11T16:30:00.000Z",
+                "precision": "minute"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "12.0",
+              "high": "15.5",
+              "unit": "g/dL"
+            },
+            "interpretations": [
+              {
+                "code": "N",
+                "name": "Normal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 13.2,
+            "unit": "g/dL"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "a69b3d60-2ffd-4440-958b-72b3335ff35f"
+              }
+            ],
+            "result": {
+              "name": "Leukocytes",
+              "code": "6690-2",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2013-03-11T16:30:00.000Z",
+                "precision": "minute"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "4.3",
+              "high": "10.8",
+              "unit": "10*9/L"
+            },
+            "interpretations": [
+              {
+                "code": "N",
+                "name": "Normal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 6.7,
+            "unit": "10*9/L"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "ef5c1c58-4665-4556-a8e8-6e720d82f572"
+              }
+            ],
+            "result": {
+              "name": "Platelets",
+              "code": "777-3",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2013-03-11T16:30:00.000Z",
+                "precision": "minute"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "150",
+              "high": "350",
+              "unit": "10*9/L"
+            },
+            "interpretations": [
+              {
+                "code": "A",
+                "name": "Abnormal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 123,
+            "unit": "10*9/L"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "7c0704bb-9c40-41b5-9c7d-26b2d59e234f"
+              }
+            ],
+            "result": {
+              "name": "Hematocrit",
+              "code": "4544-3",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2013-03-11T16:30:00.000Z",
+                "precision": "minute"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "34.9",
+              "high": "44.5",
+              "unit": "%"
+            },
+            "interpretations": [
+              {
+                "code": "A",
+                "name": "Abnormal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 35.3,
+            "unit": "%"
+          },
+          {
+            "identifiers": [
+              {
+                "identifier": "bccd6fc9-0c7f-455e-8616-923ed0d04d09"
+              }
+            ],
+            "result": {
+              "name": "Erythrocytes",
+              "code": "789-8",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2013-03-11T16:30:00.000Z",
+                "precision": "minute"
+              }
+            },
+            "status": "completed",
+            "reference_range": {
+              "low": "3.90",
+              "high": "5.03",
+              "unit": "10*12/L"
+            },
+            "interpretations": [
+              {
+                "code": "N",
+                "name": "Normal",
+                "code_system_name": "HL7 Result Interpretation"
+              }
+            ],
+            "value": 4.21,
+            "unit": "10*12/L"
+          }
+        ]
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "122ed3ae-6d9e-43d0-bfa2-434ea34b1426"
+          }
+        ],
+        "result_set": {
+          "name": "Blood chemistry test",
+          "code": "166312007",
+          "code_system_name": "SNOMED CT"
+        },
+        "results": [
+          {
+            "identifiers": [
+              {
+                "identifier": "aed821af-3330-4138-97f0-e84dfe5f3c35"
+              }
+            ],
+            "result": {
+              "name": "Urea nitrogen, Serum",
+              "code": "3094-0",
+              "code_system_name": "LOINC"
+            },
+            "date_time": {
+              "point": {
+                "date": "2008-03-20T17:30:00.000Z",
+                "precision": "minute"
+              }
+            },
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "date_time": {
+          "low": {
+            "date": "2013-01-03T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "cdbd33f0-6cde-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "status": "Completed",
+        "product": {
+          "identifiers": [
+            {
+              "identifier": "2a620155-9d11-439e-92b3-5d9815ff4ee8"
+            }
+          ],
+          "product": {
+            "name": "Proventil 0.09 MG/ACTUAT inhalant solution",
+            "code": "573621",
+            "code_system_name": "RXNORM"
+          },
+          "manufacturer": "Medication Factory Inc."
+        },
+        "administration": {
+          "route": {
+            "name": "RESPIRATORY (INHALATION)",
+            "code": "C38216",
+            "code_system_name": "Medication Route FDA"
+          },
+          "form": {
+            "name": "Puff",
+            "code": "PUFF",
+            "code_system_name": "orderableDrugForm"
+          },
+          "dose": {
+            "value": 2
+          },
+          "interval": {
+            "period": {
+              "value": 6,
+              "unit": "h"
+            },
+            "frequency": true
+          }
+        },
+        "performer": {
+          "identifiers": [
+            {
+              "identifier": "2.16.840.1.113883.4.6",
+              "extension": "555555555"
+            }
+          ],
+          "phone": [
+            {
+              "number": "+1(555)555-1004",
+              "type": "work place"
+            }
+          ],
+          "organization": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "2.16.840.1.113883.19.5.9999.1393"
+                }
+              ],
+              "name": [
+                "Community Health and Hospitals"
+              ],
+              "phone": [
+                {
+                  "number": "+1(555)555-5000",
+                  "type": "work place"
+                }
+              ]
+            }
+          ]
+        },
+        "drug_vehicle": {
+          "name": "Aerosol",
+          "code": "324049",
+          "code_system_name": "RXNORM"
+        },
+        "indication": {
+          "identifiers": [
+            {
+              "identifier": "db734647-fc99-424c-a864-7e3cda82e703",
+              "extension": "45665"
+            }
+          ],
+          "code": {
+            "name": "Clinical finding",
+            "code": "75321-0",
+            "code_system_name": "LOINC"
+          },
+          "date_time": {
+            "low": {
+              "date": "2013-01-03T00:00:00.000Z",
+              "precision": "day"
+            }
+          },
+          "value": {
+            "name": "Asthma",
+            "code": "195967001",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      },
+      {
+        "date_time": {
+          "low": {
+            "date": "2012-03-18T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "identifiers": [
+          {
+            "identifier": "6c844c75-aa34-411c-b7bd-5e4a9f206e29"
+          }
+        ],
+        "status": "Completed",
+        "product": {
+          "identifiers": [
+            {
+              "identifier": "2a620155-9d11-439e-92b3-5d9815ff4ee8"
+            }
+          ],
+          "product": {
+            "name": "Atenolol 25 MG Oral Tablet",
+            "code": "197380",
+            "code_system_name": "RXNORM"
+          }
+        },
+        "administration": {
+          "route": {
+            "name": "ORAL",
+            "code": "C38288",
+            "code_system_name": "Medication Route FDA"
+          },
+          "dose": {
+            "value": 1
+          },
+          "interval": {
+            "period": {
+              "value": 12,
+              "unit": "h"
+            },
+            "frequency": true
+          }
+        },
+        "indication": {
+          "identifiers": [
+            {
+              "identifier": "e63166c7-6482-4a44-83a1-37ccdbde725b"
+            }
+          ],
+          "code": {
+            "name": "Clinical finding",
+            "code": "75321-0",
+            "code_system_name": "LOINC"
+          },
+          "value": {
+            "name": "Hypertension",
+            "code": "38341003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      }
+    ],
+    "allergies": [
+      {
+        "identifiers": [
+          {
+            "identifier": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+          }
+        ],
+        "date_time": {
+          "low": {
+            "date": "1998-05-01T19:45:00.000Z",
+            "precision": "minute"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+            }
+          ],
+          "allergen": {
+            "name": "Penicillin",
+            "code": "70618",
+            "code_system_name": "RXNORM"
+          },
+          "intolerance": {
+            "name": "Allergy to substance",
+            "code": "419199007",
+            "code_system_name": "SNOMED CT"
+          },
+          "date_time": {
+            "low": {
+              "date": "1998-05-01T00:00:00.000Z",
+              "precision": "day"
+            }
+          },
+          "reactions": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+                }
+              ],
+              "date_time": {
+                "low": {
+                  "date": "2008-02-26T16:05:00.000Z",
+                  "precision": "minute"
+                },
+                "high": {
+                  "date": "2008-02-28T20:05:00.000Z",
+                  "precision": "minute"
+                }
+              },
+              "reaction": {
+                "name": "Nausea",
+                "code": "422587007",
+                "code_system_name": "SNOMED CT"
+              },
+              "severity": {
+                "code": {
+                  "name": "Mild",
+                  "code": "255604002",
+                  "code_system_name": "SNOMED CT"
+                }
+              }
+            }
+          ],
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      },
+      {
+        "identifiers": [
+          {
+            "identifier": "b03805bd-2eb6-4ab8-a9ff-473c6653971a"
+          }
+        ],
+        "date_time": {
+          "low": {
+            "date": "1998-05-01T19:45:00.000Z",
+            "precision": "minute"
+          }
+        },
+        "observation": {
+          "identifiers": [
+            {
+              "identifier": "901db0f8-9355-4794-81cd-fd951ef07917"
+            }
+          ],
+          "allergen": {
+            "name": "Codeine",
+            "code": "2670",
+            "code_system_name": "RXNORM"
+          },
+          "intolerance": {
+            "name": "Allergy to substance",
+            "code": "419199007",
+            "code_system_name": "SNOMED CT"
+          },
+          "reactions": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "38c63dea-1a43-4f84-ab71-1ffd04f6a1dd"
+                }
+              ],
+              "reaction": {
+                "name": "Wheezing",
+                "code": "56018004",
+                "code_system_name": "SNOMED CT"
+              },
+              "severity": {
+                "code": {
+                  "name": "Moderate",
+                  "code": "6736007",
+                  "code_system_name": "SNOMED CT"
+                }
+              }
+            }
+          ],
+          "severity": {
+            "code": {
+              "name": "Mild",
+              "code": "255604002",
+              "code_system_name": "SNOMED CT"
+            }
+          },
+          "status": {
+            "name": "Active",
+            "code": "55561003",
+            "code_system_name": "SNOMED CT"
+          }
+        }
+      }
+    ],
+    "plan_of_care": [
+      {
+        "plan": {
+          "name": "encounter for check-up (procedure)",
+          "code": "185349003",
+          "code_system_name": "SNOMED CT"
+        },
+        "identifiers": [
+          {
+            "identifier": "9a6d1bac-17d3-4195-89a4-1121bc809b4d"
+          }
+        ],
+        "date_time": {
+          "point": {
+            "date": "2013-10-15T00:00:00.000Z",
+            "precision": "day"
+          }
+        },
+        "type": "encounter",
+        "status": {
+          "code": "active"
+        },
+        "subType": "Intent"
+      }
+    ],
+    "review_of_systems": {
+      "code": {
+        "name": "REVIEW OF SYSTEMS",
+        "code": "10187-3",
+        "code_system_name": "LOINC"
+      },
+      "title": "REVIEW OF SYSTEMS",
+      "text": "Patient denies recent history of fever or malaise. Positive for weakness and shortness of breath. One episode of melena. No recent headaches. Positive for osteoarthritis in hips, knees and hands."
+    },
+    "assessment": "Recurrent GI bleed of unknown etiology; hypotension perhaps secondary to this but as likely secondary to polypharmacy.Acute on chronic anemia secondary to #1.Azotemia, acute renal failure with volume loss secondary to #1.Hyperkalemia secondary to #3 and on ACE and K+ supplement.Other chronic diagnoses as noted above, currently stable.",
+    "subjective": "Complaints of rectal bleeding, fatigue and a change in bowel patterns. Has several days of constipation alternating with diarrhea.",
+    "objective": "Chest: clear to ausc. No rales, normal breath soundsHeart: RR, PMI in normal location and no heave or evidence of cardiomegaly,normal heart sounds, no murm or gallop",
+    "chief_complaint": "Dark stools."
+  },
+  "meta": {
+    "version": "1.10.8",
+    "identifiers": [
+      {
+        "identifier": "2.16.840.1.113883.19",
+        "extension": "999022"
+      }
+    ],
+    "confidentiality": "Normal",
+    "set_id": {
+      "identifier": "2.16.840.1.113883.19",
+      "extension": "111199021"
+    },
+    "sections": [
+      "header",
+      "demographics",
+      "vitals",
+      "results",
+      "medications",
+      "allergies",
+      "plan_of_care",
+      "review_of_systems",
+      "assessment",
+      "subjective",
+      "objective",
+      "chief_complaint"
+    ]
+  },
+  "errors": [
+    "cardinality error: found 33 when expecting 0..1 at //h:author",
+    "nullFlavor alert:  missing but required street_lines in Address -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required city in Address -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required street_lines in Address -> Organization -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required city in Address -> Organization -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required street_lines in Address -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required city in Address -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required street_lines in Address -> Organization -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required city in Address -> Organization -> assignedEntity -> Performer -> ServiceEvent -> Header -> CCD",
+    "nullFlavor alert:  missing but required street_lines in Address -> Patient -> CCD",
+    "nullFlavor alert:  missing but required city in Address -> Patient -> CCD",
+    "nullFlavor alert:  missing but required precondition in medicationActivity -> medicationsSection -> CCD",
+    "nullFlavor alert:  missing but required precondition in medicationActivity -> medicationsSection -> CCD"
+  ]
+}
