@@ -7,9 +7,6 @@ describe('Medication Immunization medication information', function () {
     var result = bb.parse(xmlfile);
 
     var product = result.data.medications[0].dispense.product;
-
-    console.log(product);
-
     expect(product.manufacturer).toBe('Medication Factory Inc.');
     expect(product.manufactured_material.code.name).toBe('Proventil 0.09 MG/ACTUAT inhalant solution');
   });
